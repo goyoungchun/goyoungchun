@@ -1,6 +1,6 @@
 export const siteConfig = {
   siteName: 'Hyunjun Kim — Personal Product Studio',
-  siteUrl: 'https://example.com',
+  siteUrl: 'https://goyoungchun.github.io/goyoungchun/',
   contactEmail: 'goyoungchun1@gmail.com',
   heroTitle: 'Independent apps for reflection, clarity, and everyday life.',
   heroSubtitle:
