@@ -19,7 +19,7 @@ export default async function PrivacyDetailPage({ params }: { params: Promise<{ 
     <main>
       <PageHero eyebrow="Privacy Policy" title={policy.productName} description="This page contains product-specific privacy policy content for the current studio site." />
       <PolicyMeta policy={policy} />
-      <section className="py-8 md:py-10"><Container className="max-w-prose"><div className="space-y-6">{policy.sections.map((section: { title: string; body: string }) => <PolicySection key={section.title} title={section.title} body={section.body} />)}</div><div className="pt-6"><ButtonLink href="/contact" variant="secondary">Contact</ButtonLink></div></Container></section>
+      <section className="py-8 md:py-10"><Container className="max-w-prose"><div className="space-y-6">{policy.sections.map((section: { title: string; body: string; titleEn?: string; bodyEn?: string }) => <PolicySection key={section.title} title={section.title} body={section.body} titleEn={section.titleEn} bodyEn={section.bodyEn} />)}</div><div className="pt-6"><ButtonLink href="/contact" variant="secondary">Contact</ButtonLink></div></Container></section>
       <SiteFooter />
     </main>
   )
