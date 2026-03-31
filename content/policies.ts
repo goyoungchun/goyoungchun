@@ -45,26 +45,4 @@ export const policies: PrivacyPolicy[] = [
       },
     ],
   },
-  {
-    slug: 'routine-companion',
-    productName: 'Routine Companion',
-    effectiveDate: '2026-03-30',
-    contactEmail: 'goyoungchun1@gmail.com',
-    sections: [
-      { title: 'Information We Collect', body: 'Example placeholder text describing data categories relevant to a routine-focused application.' },
-      { title: 'Retention', body: 'Example placeholder text describing how long information may be retained and why.' },
-      { title: 'Third-Party Services', body: 'Example placeholder text describing analytics, hosting, or other service providers if applicable.' },
-    ],
-  },
-  {
-    slug: 'focus-notes',
-    productName: 'Focus Notes',
-    effectiveDate: '2026-03-30',
-    contactEmail: 'goyoungchun1@gmail.com',
-    sections: [
-      { title: 'Information We Collect', body: 'Example placeholder text describing the information that may be processed when using this product.' },
-      { title: 'Purpose of Use', body: 'Example placeholder text describing why the information is used to operate the product.' },
-      { title: 'User Rights and Contact', body: 'Example placeholder text describing how users can request help or ask privacy questions.' },
-    ],
-  },
 ]

@@ -38,3 +38,12 @@ img {
 ::selection {
   background: rgba(31, 111, 235, 0.18);
 }
+
+.break-keep {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

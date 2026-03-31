@@ -4,11 +4,11 @@ export const projects: Project[] = [
   {
     slug: 'diario',
     name: '디아리오 : AI 일기',
-    tagline: '일기를 대화하듯이 쓰는, 한국어 중심의 AI 일기 앱',
+    tagline: '일기를 대화하듯 쓰는, 한국어 중심의 AI 일기 앱',
     summary:
       '디아리오는 일기를 쓰고 싶지만 시간과 에너지가 부족한 사람을 위해, 대화를 시작점으로 삼아 기록의 허들을 낮추는 대화형 일기 앱입니다.',
     description:
-      '디아리오는 백지 화면 앞에서 막막함을 느끼는 사람들을 위해 만든 AI 일기 앱입니다. 사용자는 긴 글을 처음부터 직접 쓰지 않아도 됩니다. 오늘 있었던 일과 감정을 편하게 대화하듯 말하면, 디아리오가 이를 자연스러운 일기 초안으로 정리해줍니다. 이후 사용자는 초안을 수정해 저장할 수 있고, 기록이 쌓이면 주간 회고를 통해 한 주의 흐름을 다시 돌아볼 수 있습니다. 바쁜 직장인, 학생, 그리고 일기를 제대로 써보고 싶지만 습관을 만들기 어려웠던 사람에게 특히 잘 맞는 제품을 목표로 합니다.',
+      '디아리오는 백지 화면 앞에서 막막함을 느끼는 사람들을 위해 만든 AI 일기 앱입니다. 긴 글을 처음부터 직접 쓰지 않아도, 오늘 있었던 일과 감정을 편하게 말하면 디아리오가 이를 자연스러운 일기 초안으로 정리해줍니다. 이후 사용자는 초안을 수정해 저장할 수 있고, 기록이 쌓이면 주간 회고를 통해 한 주의 흐름을 다시 돌아볼 수 있습니다. 바쁜 직장인과 학생, 그리고 일기를 꾸준히 써보고 싶지만 쉽게 시작하지 못했던 사람에게 잘 맞는 제품을 목표로 합니다.',
     status: 'in-progress',
     category: 'Self Improvement',
     platforms: ['iOS', 'Android'],
@@ -23,43 +23,5 @@ export const projects: Project[] = [
       '일기를 쓰고 싶지만 시간 내기가 어려운 직장인과 학생',
       '기록 습관을 만들고 싶지만 백지의 부담 때문에 자주 포기했던 사람',
     ],
-  },
-  {
-    slug: 'routine-companion',
-    name: 'Routine Companion',
-    tagline: 'A simple tool for keeping lightweight routines visible.',
-    summary: 'Organize recurring personal routines with a clean and supportive structure.',
-    description:
-      'Routine Companion is a placeholder project for testing a multi-product studio structure with another product type.',
-    status: 'beta',
-    category: 'Productivity',
-    platforms: ['iOS', 'Web'],
-    featured: true,
-    privacySlug: 'routine-companion',
-    features: [
-      'Track recurring routines in a lightweight checklist format.',
-      'Keep progress visible without turning the product into a heavy planner.',
-      'Use flexible prompts to maintain consistency.',
-    ],
-    audience: ['Users building small personal routines.', 'People who want a simpler alternative to full planning apps.'],
-  },
-  {
-    slug: 'focus-notes',
-    name: 'Focus Notes',
-    tagline: 'A note-taking concept built around clarity and shorter sessions.',
-    summary: 'Collect small notes and ideas in a focused environment with fewer distractions.',
-    description:
-      'Focus Notes is a placeholder product example used to validate project card density, detail templates, and policy linking.',
-    status: 'live',
-    category: 'Notes',
-    platforms: ['iOS'],
-    featured: false,
-    privacySlug: 'focus-notes',
-    features: [
-      'Capture short notes quickly.',
-      'Organize ideas in a cleaner, less overwhelming interface.',
-      'Keep note-taking fast and intentional.',
-    ],
-    audience: ['Users who prefer shorter writing sessions.', 'People who want a simpler note utility for everyday use.'],
   },
 ]
