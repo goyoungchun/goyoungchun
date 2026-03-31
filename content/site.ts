@@ -1,10 +1,10 @@
 export const siteConfig = {
-  siteName: 'Hyunjun Kim — Personal Product Studio',
+  siteName: 'GOYOUNGCHUN — Personal Product Studio',
   siteUrl: 'https://goyoungchun.github.io/goyoungchun/',
   contactEmail: 'goyoungchun1@gmail.com',
-  heroTitle: 'Independent apps for reflection, clarity, and everyday life.',
+  heroTitle: '아이디어를 현실로',
   heroSubtitle:
-    'A personal product studio by Hyunjun Kim, building calm digital products centered on journaling, weekly reflection, and intentional use.',
+    '평소에 떠오른 아이디어들을 실제로 구현하고, 생활 속에서 바로 쓸 수 있는 디지털 제품으로 발전시킵니다.',
   navigation: [
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },

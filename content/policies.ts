@@ -2,34 +2,34 @@ import type { PrivacyPolicy } from '@/types/policy'
 
 export const policies: PrivacyPolicy[] = [
   {
-    slug: 'daily-journal',
-    productName: 'AI Diary',
-    effectiveDate: '2026-03-30',
+    slug: 'diario',
+    productName: '디아리오 : AI 일기',
+    effectiveDate: '2026-03-31',
     contactEmail: 'goyoungchun1@gmail.com',
     sections: [
       {
-        title: 'Overview',
-        body: 'AI Diary is a private diary app that helps users record their day through AI-guided conversation and saved journal entries. Because the product handles personal writing, reflection data, and account-related information, privacy and trust are treated as core product requirements from the beginning. This policy explains the categories of information that may be processed, why that information may be used, and how users can contact the operator.',
+        title: '개인정보처리방침 개요',
+        body: '디아리오 : AI 일기(이하 "디아리오")는 사용자가 하루의 경험과 감정을 더 쉽게 기록할 수 있도록 돕는 대화형 일기 서비스입니다. 디아리오는 개인의 기록과 감정 표현을 다루는 서비스인 만큼, 개인정보 보호와 신뢰를 핵심 운영 원칙으로 삼습니다. 본 개인정보처리방침은 디아리오가 어떤 정보를 수집하거나 처리할 수 있는지, 어떤 목적으로 사용하는지, 이용자가 어떤 권리를 가질 수 있는지를 설명합니다.',
       },
       {
-        title: 'Information We May Collect',
-        body: 'Depending on the features a user chooses to use, AI Diary may process account and authentication information such as login provider identifiers, email address, nickname, locale, and timezone. The app may also process conversation content, generated diary drafts, saved diary entries, weekly reflection content, support inquiries, device information, app version, push notification preferences, usage logs, and technical event data needed to maintain reliability, security, and billing or entitlement status.',
+        title: '수집하거나 처리할 수 있는 정보',
+        body: '디아리오는 서비스 제공 과정에서 로그인 및 계정 식별 정보, 이메일 주소, 닉네임, 언어 및 시간대 정보와 같은 계정 관련 정보를 처리할 수 있습니다. 또한 사용자가 입력한 대화 내용, 생성된 일기 초안, 저장된 일기, 주간 회고 결과, 기기 정보, 앱 버전, 이용 기록, 오류 로그, 알림 설정 정보 등을 서비스 운영과 품질 개선을 위해 처리할 수 있습니다. 실제 수집 항목은 서비스 기능 구성과 운영 방식에 따라 달라질 수 있습니다.',
       },
       {
-        title: 'How Information Is Used',
-        body: 'Information may be used to authenticate users, operate the diary experience, generate editable diary drafts from conversation, save and display diary entries, generate weekly reflection features, restore access across sessions and devices, provide customer support, improve product quality, monitor abuse or suspicious activity, measure service reliability, and manage subscription or entitlement status where applicable. AI Diary is intended to help users create and revisit personal records; it is not positioned as a medical, therapy, or diagnostic service.',
+        title: '개인정보의 이용 목적',
+        body: '수집 또는 처리된 정보는 회원 식별, 로그인 유지, 일기 초안 생성, 기록 저장, 주간 회고 제공, 이용자 문의 대응, 서비스 안정성 확보, 보안 점검, 오류 분석, 기능 개선, 결제 또는 구독 상태 확인 등 디아리오의 핵심 기능 제공을 위해 사용될 수 있습니다. 디아리오는 사용자의 기록 경험을 돕기 위한 서비스이며, 의료 행위, 심리 상담, 치료 또는 진단을 제공하는 서비스가 아닙니다.',
       },
       {
-        title: 'AI Processing and Sensitive Content',
-        body: 'Users may choose to enter deeply personal content into AI Diary, including emotional reflections, memories, and private experiences. That content may be processed for the purpose of generating diary drafts, improving the quality of the journaling experience, and presenting saved entries or reflection outputs back to the user. Because the service is built around private writing, content should be handled with elevated care, and this policy should be updated further once the final production architecture, storage model, encryption approach, and third-party AI providers are fixed.',
+        title: 'AI 처리 및 민감한 기록 정보',
+        body: '디아리오는 사용자가 입력한 하루의 사건, 감정, 기억, 개인적 고민 등 민감할 수 있는 내용을 AI 처리에 활용할 수 있습니다. 이러한 정보는 사용자가 요청한 일기 초안 생성, 기록 정리, 회고 기능 제공을 위한 범위 안에서 처리됩니다. 다만 실제 서비스 운영 시 적용되는 저장 방식, 암호화 수준, 외부 AI 제공자 연동 여부 등에 따라 보호 방식이 달라질 수 있으므로, 운영 구조가 확정되면 본 방침도 이에 맞게 추가 보완될 수 있습니다.',
       },
       {
-        title: 'Retention, Deletion, and Third-Party Services',
-        body: 'Information may be retained only as long as reasonably necessary to operate the service, provide account access, maintain security, comply with legal obligations, resolve disputes, or enforce policies. Users may be given controls to edit or delete diary content inside the app, and deletion requests may require a limited retention window for backup, fraud prevention, or legal compliance. The service may rely on third-party providers for infrastructure, authentication, analytics, crash reporting, payments, notifications, or AI processing. If specific providers are added or changed, this policy should be updated to name them more precisely.',
+        title: '보관 기간, 삭제, 제3자 서비스',
+        body: '디아리오는 서비스 제공에 필요한 범위 내에서만 개인정보를 보관하며, 관련 법령상 보존 의무가 있는 경우를 제외하고는 목적 달성 후 지체 없이 파기 또는 삭제를 검토합니다. 사용자는 앱 내 기능 또는 문의를 통해 기록 삭제를 요청할 수 있으며, 일부 정보는 백업, 보안 대응, 분쟁 대응, 법적 의무 이행을 위해 일정 기간 추가 보관될 수 있습니다. 또한 서비스 운영 과정에서 호스팅, 인증, 분석, 오류 추적, 결제, 푸시 알림, AI 처리 등의 외부 서비스가 활용될 수 있으며, 구체적인 제3자 서비스가 확정되면 본 방침에 반영됩니다.',
       },
       {
-        title: 'Contact',
-        body: 'If you have questions about this privacy policy, your personal information, or the handling of content inside AI Diary, please contact goyoungchun1@gmail.com. This version is intended as a real operational draft for MVP release preparation, but it should still be reviewed and refined against the final production implementation before wide release.',
+        title: '이용자 권리 및 문의처',
+        body: '이용자는 자신의 개인정보와 기록 데이터에 대해 열람, 수정, 삭제, 처리 문의를 요청할 수 있습니다. 디아리오의 개인정보 처리에 관한 문의는 goyoungchun1@gmail.com 으로 접수할 수 있습니다. 본 문서는 MVP 출시를 위한 운영 초안으로, 실제 서비스 출시 전 최종 기능과 데이터 흐름을 기준으로 다시 검토 및 보완될 수 있습니다.',
       },
     ],
   },

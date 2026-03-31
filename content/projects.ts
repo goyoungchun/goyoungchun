@@ -2,26 +2,26 @@ import type { Project } from '@/types/project'
 
 export const projects: Project[] = [
   {
-    slug: 'daily-journal',
-    name: 'AI Diary',
-    tagline: 'A Korean-first private diary app where talking with AI becomes a saved daily journal.',
+    slug: 'diario',
+    name: '디아리오 : AI 일기',
+    tagline: '일기를 대화하듯이 쓰는, 한국어 중심의 AI 일기 앱',
     summary:
-      'AI Diary lowers the friction of journaling by letting users talk through their day, then turning that conversation into a structured private diary entry they can edit, save, and revisit later.',
+      '디아리오는 일기를 쓰고 싶지만 시간과 에너지가 부족한 사람을 위해, 대화를 시작점으로 삼아 기록의 허들을 낮추는 대화형 일기 앱입니다.',
     description:
-      'AI Diary is a Korean-first private diary app designed for people who want to record their day but struggle to start from a blank page. Instead of asking users to write everything alone, the app uses short AI-guided conversation to help organize events, emotions, and meaning into a saved diary entry. As entries accumulate, users can return to them through archive views and weekly reflection features that make their records feel more valuable over time.',
+      '디아리오는 백지 화면 앞에서 막막함을 느끼는 사람들을 위해 만든 AI 일기 앱입니다. 사용자는 긴 글을 처음부터 직접 쓰지 않아도 됩니다. 오늘 있었던 일과 감정을 편하게 대화하듯 말하면, 디아리오가 이를 자연스러운 일기 초안으로 정리해줍니다. 이후 사용자는 초안을 수정해 저장할 수 있고, 기록이 쌓이면 주간 회고를 통해 한 주의 흐름을 다시 돌아볼 수 있습니다. 바쁜 직장인, 학생, 그리고 일기를 제대로 써보고 싶지만 습관을 만들기 어려웠던 사람에게 특히 잘 맞는 제품을 목표로 합니다.',
     status: 'in-progress',
-    category: 'Journaling',
+    category: 'Self Improvement',
     platforms: ['iOS', 'Android'],
     featured: true,
-    privacySlug: 'daily-journal',
+    privacySlug: 'diario',
     features: [
-      'Start with conversation instead of a blank page, so journaling feels easier on low-energy days.',
-      'Generate an editable diary draft with title, body, and emotional framing after a short chat.',
-      'Revisit saved entries later and build long-term value through weekly reflection over accumulated records.',
+      '대화만 해도 AI가 맥락을 정리해 자연스러운 일기 초안을 만들어줍니다.',
+      '주간 회고 기능으로 이번 주의 감정 흐름과 기억에 남는 순간을 다시 돌아볼 수 있습니다.',
+      '바쁜 일상 속에서도 기록을 이어갈 수 있도록 진입 장벽을 낮춘 경험을 제공합니다.',
     ],
     audience: [
-      'People who want to keep a private journal but often fail to continue because writing feels burdensome.',
-      'Korean-speaking users who want a natural, warm AI diary experience focused on reflection rather than productivity pressure.',
+      '일기를 쓰고 싶지만 시간 내기가 어려운 직장인과 학생',
+      '기록 습관을 만들고 싶지만 백지의 부담 때문에 자주 포기했던 사람',
     ],
   },
   {
