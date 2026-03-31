@@ -6,10 +6,10 @@ export const siteConfig = {
   heroSubtitle:
     '평소에 떠오른 아이디어들을 실제로 구현하고, 생활 속에서 바로 쓸 수 있는 디지털 제품으로 발전시킵니다.',
   navigation: [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'About' },
-    { href: '/projects', label: 'Projects' },
-    { href: '/privacy', label: 'Privacy' },
-    { href: '/contact', label: 'Contact' },
+    { href: '/', label: '홈' },
+    { href: '/about', label: '소개' },
+    { href: '/projects', label: '프로젝트' },
+    { href: '/privacy', label: '정책' },
+    { href: '/contact', label: '문의' },
   ],
 } as const
